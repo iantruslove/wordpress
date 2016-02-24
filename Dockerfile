@@ -1,3 +1,7 @@
+################################################################################
+# iant/wordpress
+# https://github.com/iantruslove/wordpress
+################################################################################
 FROM iant/lamp:latest
 MAINTAINER Ian Truslove <ian.truslove@gmail.com>
 
