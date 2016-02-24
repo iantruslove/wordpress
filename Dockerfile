@@ -3,7 +3,7 @@ MAINTAINER Ian Truslove <ian.truslove@gmail.com>
 
 # Install plugins
 RUN apt-get update && \
-  apt-get -y install php5-gd && \
+  apt-get -y install php5-gd php5-curl && \
   rm -rf /var/lib/apt/lists/*
 
 # Download latest version of Wordpress into /app
