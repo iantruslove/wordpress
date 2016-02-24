@@ -1,4 +1,4 @@
-FROM tutum/lamp:latest
+FROM iant/lamp:latest
 MAINTAINER Ian Truslove <ian.truslove@gmail.com>
 
 # Install plugins
